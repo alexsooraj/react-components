@@ -9,13 +9,15 @@ function App() {
     <div className="App">
       <BrowserRouter>
         <Switch>
-        <Route exact path="/">
-          <Link to={"/timeline"}>Timeline</Link>
-        </Route>
+          <Route exact path="/">
+            <ul>
+              <li><Link to={"/timeline"}>Timeline</Link></li>
+            </ul>
+          </Route>
           <Route path="/timeline">
             <Timeline />
           </Route>
-      </Switch>
+        </Switch>
       </BrowserRouter>
     </div>
   );
