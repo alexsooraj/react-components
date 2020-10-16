@@ -4,6 +4,9 @@ import './timeline.css';
 
 declare var window: any;
 
+/**
+ * Timeline component
+ */
 function Timeline() {
 
     const dummyTimelineData: TimelineItem[] = [
