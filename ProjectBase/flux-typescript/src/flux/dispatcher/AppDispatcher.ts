@@ -14,10 +14,8 @@
  * @see https://github.com/facebook/flux/blob/master/examples/flux-todomvc/js/dispatcher/AppDispatcher.js
  *
  */
-import { Dispatcher } from 'flux';
-import Action from './../data/Action';
-
-
+import { Dispatcher } from "flux";
+import Action from "./../data/Action";
 
 var AppDispatcher: Dispatcher<Action> = new Dispatcher<Action>();
 
